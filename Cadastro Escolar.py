@@ -190,7 +190,7 @@ def Notas():
             avalif = ["Prova", "Trabalho", "Exercícios"]
             while continuar == 0:
                 if not EscolaDados[serie]:
-                    print(f"Nenhum aluno(a) cadastrado em {serie} .\n")
+                    print(f"Nenhum aluno(a) foi cadastrado em {serie} .\n")
                     continuar = 1
                 else:
                     nome = input("Digite o nome do aluno(a) que será inserido as notas: ")
